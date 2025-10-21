@@ -7,7 +7,8 @@ function createSessionConfig() {
   const isVercel = process.env.VERCEL === '1';
   
   const baseConfig = {
-    secret: process.env.SESSION_SECRET || 'kitanime-secret-key-change-in-production',
+    secret: process.env.SESSION_SECRET || 'a8f5f167f44f4964e6c998dee827110c134cf0c1a1e5f8f4e9c5f8e3b7c1d2a3
+',
     resave: false,
     saveUninitialized: false,
     cookie: {
